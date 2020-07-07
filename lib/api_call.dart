@@ -3,6 +3,8 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'dart:async';
 
+import 'models/user.dart';
+
 class ApiCall extends StatefulWidget {
   static Route route() {
     return MaterialPageRoute(builder: (_) => ApiCall());
@@ -65,18 +67,4 @@ class _ApiCallState extends State<ApiCall> {
   }
 }
 
-class User {
-  String firstName;
-  String lastName;
-  int age;
 
-  User({this.firstName, this.lastName, this.age});
-
-  factory User.fromJson(Map<String, dynamic> json) {
-    return User(
-        firstName: json['firstname'],
-        lastName: json['lastname'],
-        age: json['age'],
-    );
-  }
-}

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'compteur.dart';
+import 'database_page.dart';
 
 class AppDrawer extends StatelessWidget {
   @override
@@ -49,6 +50,13 @@ class AppDrawer extends StatelessWidget {
             title: Text('API'),
             onTap: () {
               Navigator.push(context, ApiCall.route());
+            },
+          ),
+          ListTile(
+            leading: Icon(FontAwesomeIcons.database),
+            title: Text('Database'),
+            onTap: () {
+              Navigator.push(context, Database.route());
             },
           ),
           Expanded(
