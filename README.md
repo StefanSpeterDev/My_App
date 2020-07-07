@@ -1,16 +1,11 @@
-# efficom_app
+# Crashtest
 
-A new Flutter project.
+This APP is my crash test. I work on it to learn flutter and get used of it.
+For now what I've worked on:
+<ul>
+  <li>Layouts</li>
+  <li>API Calls with FutureBuilder</li>
+  <li>Navigator<li>
+</ul>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I didn't dive into it deeply yet, but I will as soon as I get comfortable using Widgets in their base functions.
